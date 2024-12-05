@@ -6,10 +6,10 @@ import { jobs } from "../Pages/HomePage";
 const JobCard = () => {
   console.log(jobs)
   return (
-  <div className="mx-auto w-[90%] justify-center mt-7">
+  <div className="mx-auto w-[90%] justify-center mt-7 ">
   <div className="job-card grid grid-cols-3 w-[90%]  gap-3 ml-24">
       {jobs.map(({ title,remote,salary,companyName,companyLogo,loc,location,saved},i)=>(
-        <div key={i} className="flex flex-col w-[375px] border-2 border-gray-300 p-4 gap-2">
+        <div key={i} className="flex flex-col w-[375px] border-2 border-gray-300 p-4 gap-2 hover:bg-orange-200 hover:scale-110 duration-300">
           <div>{title}</div>
           <div className="flex justify-between w-[70%]">
             <h2>{remote}</h2>
