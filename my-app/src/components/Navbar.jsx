@@ -14,7 +14,9 @@ const Navbar = () => {
         </div>
 
         <div className="flex w-[30%] justify-between items-center" >
-          <div className="w-7 h-7 border-2 border-gray-400 rounded-md"></div>
+          <div>
+            <input type="checkbox" className="w-7 h-7 border-2 border-gray-400 rounded-md"/>
+          </div>
           <div className="text-gray-500">My saved jobs only </div>
           <div>
             <img  className="w-16 h-16"src="https://th.bing.com/th/id/OIP.-CnYaCHnj7cT8iDHaKT3MAHaHa?w=198&h=198&c=7&r=0&o=5&dpr=1.3&pid=1.7"/>
