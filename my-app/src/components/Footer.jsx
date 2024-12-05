@@ -3,11 +3,11 @@ import { FaFacebookF, FaYoutube, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-orange-500 sticky bottom-0 w-[100vw] text-white py-4">
-      <div className="container mx-auto flex items-center justify-between">
-        <p className="text-sm">      © 2024 ExplorIn. All rights reserved
+    <footer className="bg-orange-500 sticky bottom-0 w-[100vw] text-white py-4 mt-2">
+      <div className="container mx-auto flex items-center justify-between ">
+        <p className="text-sm ml-44">      © 2024 ExplorIn. All rights reserved
         </p>
-        <div className="flex space-x-4">
+        <div className="flex space-x-4 mr-40">
           <a
             href="https://facebook.com"
             target="_blank"
